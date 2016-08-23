@@ -3,58 +3,105 @@
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <title>dangmckeown</title>
-
-            <style>
-			h1, h2, p {display:none;}
-            </style>
-
+            <title>dangmckeown | digital comms</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+<style>
 
+body{
+	font-family:Arial;
+}
+
+.social_pic{
+	width: 50px;
+}
+
+.app_pic {
+width: 250px;
+	}
+
+
+@media screen and (min-width: 750px){
+	.app_pic {
+	float: right;
+	padding-left: 10px;
+	}
+
+}
+
+@media screen and (max-width: 749px){
+	.app_pic {
+	float: none;
+	padding-left: 0;
+	}
+
+}
+
+
+</style>
 
         </head>
         <body>
 
-<h1>dangmckeown</h1>
-<img alt="Me with Vincent van Gogh" src="https://avatars0.githubusercontent.com/u/11213615?v=3&s=200">
-<p><a href="https://github.com/dangmckeown">Check me out on GitHub &raquo;</a></p>
-<h2>Fantasy League standings app</h2>
+<center><h1>dangmckeown | digital comms</h1>
 
-<p><a href="https://fancy-draught.herokuapp.com/">View the latest Fantasy Draft League standings (Heroku)</a></p>
+<table cellspacing="5">
+<tr><td><a href="https://github.com/dangmckeown" target="_blank"><img src="GitHub-Mark-64px.png" class="social_pic" alt="GitHub logo" /><br />Github</a></td>
 
-<h3>Background</h3>
+<td><a href="https://twitter.com/dangmckeown" target="_blank"><img src="Twitter_Logo_White_On_Blue.png" class="social_pic" alt="Twitter logo" /><br />Twitter</a></td>
 
-<p>I'm part of a 'Draft League', using the scores from fantasy.premierleague.com. Now there's an automatic-updating league table to show how badly taking Leonardo Ulloa over Jamie Vardy is hurting me, among other things.</p>
+<td>
+	<a href="https://uk.linkedin.com/in/daniel-mckeown-0a5b2957" target="_blank"><img src="In-2C-66px-R.png" class="social_pic" alt="LinkedIn logo" /><br />LinkedIn</a></td></tr>
 
-<p>The app is built in PHP, using data from the fantasy.premierleague.com API</p>
+</table>
+<h2>Some of my work</h2>
+</center>
 
-<h3>The draft</h3>
+<div class="app">
+<h3>Fantasy Draft League standings app</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mobfooty.jpg" class="app_pic" alt="Game of mob football" />
 
-<p>On the day of the Community Shield match between Arsenal and Chelsea, we gathered in the Porterhouse near covent garden, clutching handfuls of notes, ready for our inaugural Fantasy League draft.</p>
+<h4>Background</h4>
 
-<h3>The rules</h3>
+<p>I'm part of a 'Draft League', using the scores from fantasy.premierleague.com. Each participating manager takes it in turns to pick, and is only allowed a maximum of one player per Premier Leagua club. Unlikely legends of this format include West Brom's centre forward and Burnley's goalkeeper.</p>
+<p>Since the Premier League site discontinued its json API, this season's standings are 
+now based on scraped data.</p>
+		<p>For each of the managers, the app selects their best scoring viable 
+		team (eleven on the pitch, one goalie, at least three in the midfield 
+		and defence and two up front). It then calculates the latest league standings.</p>
+		
+		<ul>
+			<li><a href="https://fancy-draught.herokuapp.com/">View the latest Fantasy Draft League standings (Heroku)</a></li>
+			<li><a href="https://github.com/dangmckeown/fancy-draught-2016">View 
+			code on GitHub</a> </li>
+		</ul>
+		</div>
+		<div class="app">
+		<h3>Prime functions app</h3>
+		
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Optimus_Prime_patent.png/512px-Optimus_Prime_patent.png" class="app_pic" alt="WikiCommons image of Optimus Prime toy patent application" />
 
-<ul><li>Take it in turns to pick.</li><li>
-The last manager to pick in round one gets first pick in round two and the picking order is reversed</li><li>
-Pick a squad of 15: two goalies, five defenders, five midfielders, three attackers</li><li>
-The real game-changer: <b>pick no more than one player per Premier League team</b></li><li>
-Don't use any tech - bring your research with you</li></ul>
-<p>The first round of the draft went as might be expected: Rooney and Aguero, top scorers from last year, were quickly off the table. The second round was where the 'one player from each team' rule came into play. Pete's decision to hit West Brom early and take Saido Berahino led to a run on West Brom assets. Then, with all of Arsenal, Chelsea, Man City and Liverpool to choose from, I snapped up Liam Cresswell from West Ham.</p>
 
-<h3>Some observations</h3>
-<ul><li>Unless there's someone you really like, don't get into any of the big teams early. Even after the other four managers had picked a Chelsea player each, there were still about eight left I would have been reasonably happy to take.</li>
-<li>That said, Man Utd genuinely only had two players I wanted. I got Rooney, but if I couldn't have taken him or Mata, I doubt I would have bothered getting a Man U player at all.</li>
-<li>At the time, getting the star players from smaller teams seemed like the be-all and end-all. When Gylfi Sigurdsson went off the table, it was like a knife through my heart.</li>
-<li>Beware the availability heuristic: with a straight choice between Ulloa and Vardy from Leicester (level on points from last season, no one else was interested in Leicester strikers), I went with big Ulloa because I had a better idea what he looked like and talked myself into imagining Leicester booting it up the pitch to him.</li></ul>
+		<p>This app can return a range of prime numbers, test if a number is 
+		prime, or determine its prime factors. No commercial or military 
+		applications as of yet.</p>
+		<ul>
+			<li><a href="http://dang-prime-functions.herokuapp.com/">Try the 
+			Prime Functions app (Heroku)</a></li>
+			<li><a href="https://github.com/dangmckeown/primefunctions">View 
+			code on GitHub</a></li>
+		</ul>
+		<b>A quick primer</b>
+<ul>
+<li>Prime numbers are only divisible by themselves and one</li>
+<li>All non-prime numbers have <b>prime factors</b> eg 6 can be produced from 2 and 3 (2 x 3 = 6) and 12 can be produced from 2, 2 and 3 (2 x 2 x 3 = 12)</li>
+<li><i>"Freedom is the right of all sentient beings"</i> - Autobot leader Optimus Prime (pictured)</li>
+</ul>
 
-<script>
-$( window ).load(function() {
- $( "h1" ).fadeIn( 1000 );
- $( "h2" ).fadeIn( 3000 );
- $( "p" ).fadeIn( 5000 );
-});
+		</div>
 
-</script>
+
         </body>
     </html>
+
+
